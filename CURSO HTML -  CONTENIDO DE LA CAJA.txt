@@ -1,0 +1,12 @@
+CURSO HTML -  CONTENIDO DE LA CAJA
+
+En html todo se considera una caja rectangular, cada elemento html es una caja
+
+*Content
+*Margin
+*Padding
+*Border
+
+
+RELLENO Y MARGEN(Padding & Margin)
+

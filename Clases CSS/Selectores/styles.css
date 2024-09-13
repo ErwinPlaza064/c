@@ -1,0 +1,12 @@
+/*Por elemento*/
+li {
+    color: gray;
+}
+/*Por Clase*/
+.faltante {
+    color: red;
+}
+/*Por ID*/
+#ingrediente-faltante{
+    color: brown;
+}
