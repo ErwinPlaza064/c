@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #00fa;
+}
+
+.box {
+  background-color: #08f;
+  width: 100%;
+  height: 100px;
+  margin: 20px;
+  margin: 0px;
+  background: url("https://scontent.fcyw3-1.fna.fbcdn.net/v/t39.30808-6/449609536_2753968498112399_2111490390971452456_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=J9LjEGYf7mIQ7kNvgEpGs_i&_nc_ht=scontent.fcyw3-1.fna&_nc_gid=AATdH9AhhuZtt42iShT5tMq&oh=00_AYDjhOaOqy78oVbei2dsNvl3DerqnkKfjs7_01-rHP7Plg&oe=66EEF166")
+    top / cover fixed;
+}
+
+p {
+  color: white;
+}
+
+.opaco {
+  background-color: #0007;
+  height: 100%;
+}
+
+h2 {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
