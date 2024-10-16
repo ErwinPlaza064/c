@@ -1,0 +1,27 @@
+body {
+  background-color: #333;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.form_input {
+  font-size: 30px;
+}
+
+label {
+  color: #fff;
+}
+
+.checkbox {
+  width: 20px;
+  height: 15px;
+}
+
+a {
+  color: #69f;
+  text-decoration: none;
+}
