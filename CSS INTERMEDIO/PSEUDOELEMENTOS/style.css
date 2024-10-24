@@ -7,3 +7,31 @@ h1::first-letter {
   color: red;
   letter-spacing: -8px;
 }
+
+div::first-line {
+  color: red;
+  font-weight: bold;
+}
+
+div::selection {
+  background-color: red;
+  color: #fff;
+}
+
+input::placeholder {
+  color: green;
+  background-color: #000;
+}
+
+li::marker {
+  color: red;
+  font-size: 2em;
+}
+
+li::before {
+  content: "👉";
+}
+
+li::after {
+  content: "👈";
+}
