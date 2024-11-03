@@ -5,18 +5,24 @@ body {
 
 .flexbox {
   display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
 }
 
 .flex-item {
   height: 60px;
-  width: 180px;
+  width: 200px;
   background-color: #911;
   margin: 10px;
   color: #fff;
   font-size: 40px;
   text-align: center;
+  direction: rtl;
 }
 
+.flex-item:nth-child(2n) {
+  background-color: black;
+}
 .flex-item:first-child {
   background-color: #d56;
 }
