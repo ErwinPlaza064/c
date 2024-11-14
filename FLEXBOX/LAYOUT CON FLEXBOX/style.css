@@ -7,15 +7,22 @@ body {
 }
 
 .header {
-  height: 100vh;
+  min-height: 100vh;
   box-sizing: border-box;
-  background-image: url("../IMG/header_background.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: url("../IMG/descarga.png");
+  background-size: cover;
+  display: flex;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3.6rem;
+  text-wrap: balance;
+}
 
 .header__overlay {
-  width: 100vh;
-  height: 100vw;
+  min-height: 100vh;
+  width: 100%;
   background-color: #f809;
   position: absolute;
   z-index: 1;
@@ -24,7 +31,96 @@ body {
 .header__item-container {
   position: relative;
   z-index: 10;
+  margin: auto;
+  text-align: center;
+  max-width: 700px;
 }
-h1 {
+
+.header__item-container p {
+  text-wrap: pretty;
+}
+
+.header__img {
+  min-width: 250px;
+  max-width: 40%;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin: 20px;
+}
+
+.nav {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 8px;
+  position: sticky;
+  top: 0;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 25px #0006;
+}
+
+.nav__ul {
+  padding: 0;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav__item {
+  list-style: none;
+}
+
+.nav__link {
+  color: #f80;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 0;
+  transition: background-color 0.3s, border-radius 0.24s;
+}
+
+.nav__link:hover {
+  background-color: #f803;
+  border-radius: 20px;
+}
+
+.link--login {
+  background-color: #f80;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 24px;
+  margin-left: 6px;
+}
+
+.link--login:hover {
+  background-color: #f809;
+}
+.nav__logo {
+  width: 100px;
+}
+
+.nav__logo-container,
+.nav__ul-container {
+  flex-grow: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.nav__logo-container {
+  justify-content: center;
+}
+
+.nav__ul-container {
+  flex-grow: 4;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  font-size: 30px;
+  text-wrap: pretty;
 }
